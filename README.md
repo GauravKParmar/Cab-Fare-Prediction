@@ -10,12 +10,13 @@ GitHub folder contains:
 # Problem Statement
 The objective of the project is to predict cab fare amount based upon the following data attributes in the dataset:
 
-pickup_datetime - timestamp value indicating when the cab ride started.
-pickup_longitude - float for longitude coordinate of where the cab ride started.
-pickup_latitude - float for latitude coordinate of where the cab ride started.
-dropoff_longitude - float for longitude coordinate of where the cab ride ended.
-dropoff_latitude - float for latitude coordinate of where the cab ride ended.
-passenger_count - an integer indicating the number of passengers in the cab ride.
+1. pickup_datetime - timestamp value indicating when the cab ride started.
+2. pickup_longitude - float value for longitude coordinate of where the cab ride started.
+3. pickup_latitude - float value for latitude coordinate of where the cab ride started.
+4. dropoff_longitude - float value for longitude coordinate of where the cab ride ended.
+5. dropoff_latitude - float value for latitude coordinate of where the cab ride ended.
+6. passenger_count - integer value indicating the number of passengers in the cab ride.
+7. fare_amount - float value for total amount of fare being charged. (Target variable)
 
 # Steps performed
 1. Data Preprocessing
